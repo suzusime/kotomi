@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>絶対温度–逆温度変換器</title>
+    </head>
+    <body>
+        <h2>絶対温度–逆温度変換器</h2>
+        <p>ボルツマン定数 k_B = 1.380649e-23 [J/K] （定義値）</p>
+        <p>有効数字5桁で切り捨てて表示します。</p>
+        <label for="temp">温度[K]：</label><input type="number" name="temp" id="temp" step="any"><br>
+        <input type="button" id="conv_temp_to_beta" value="　↓　">
+        <input type="button" id="conv_beta_to_temp" value="　↑　"><br>
+        <label for="beta">逆温度[/J]：</label><input type="number" name="beta" id="beta" step="any">
+        <script src="main.js"></script>
+    </body>
+</html>
